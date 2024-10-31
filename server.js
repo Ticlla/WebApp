@@ -10,6 +10,7 @@ const PORT = '3000';
 
 app.get('/', (req, res) => {
   res.render('pages/index.ejs')
+  
 });
 
 app.get('/login', (req, res) => {
